@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Dakota STEM Trails</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="main-nav">
+  <a href="index.html">Home</a>
+  <a href="about.html">About Us</a>
+  <a href="contact.html" class="active">Contact</a>
+  <a href="team.html">Our Team</a>
+</nav>
+
+<div class="section panel">
+  <h1>Our Contact Information:</h1>
+</div>
+
+<div class="section" style="padding-top:0;">
+  <div class="info-bar bg-blue">
+    <strong>Our Homebase</strong><span>Brookings, South Dakota</span>
+  </div>
+  <div class="info-bar bg-orange">
+    <strong>Email Us</strong><span>dakotastemtrails@gmail.com</span>
+  </div>
+  <div class="info-bar bg-yellow">
+    <strong>Our Instagram</strong><span>@dakotastemtrails</span>
+  </div>
+</div>
+
+<div class="section panel center-title">
+  <h2>Would Like to reach out to us?</h2>
+</div>
+
+<section class="two-col">
+  <img src="https://picsum.photos/seed/dakota-hallway/900/900" alt="School hallway with children's artwork">
+  <div class="box bg-yellow">
+    <h3 style="text-align:center;">Fill form if you would like to reach out to us!</h3>
+    <form onsubmit="event.preventDefault(); alert('Thanks for reaching out! This is a demo form — connect it to a form service (e.g. Formspree) to receive submissions.');">
+      <div>
+        <label>First name *</label>
+        <input type="text" required>
+      </div>
+      <div>
+        <label>Last name *</label>
+        <input type="text" required>
+      </div>
+      <div>
+        <label>Email *</label>
+        <input type="email" required>
+      </div>
+      <div>
+        <label>Company, school, or organization (if applicable)</label>
+        <input type="text">
+      </div>
+      <div>
+        <label>What is the specific partnership or reason for contact?</label>
+        <textarea></textarea>
+      </div>
+      <div>
+        <label>Is it ok if we email you in regards to the partnership or reason for contact?</label>
+        <div class="radio-row">
+          <label><input type="radio" name="ok-email" value="yes"> Yes!</label>
+          <label><input type="radio" name="ok-email" value="no"> No</label>
+        </div>
+      </div>
+      <button type="submit" class="submit">Submit!</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <h2>Dakota STEM Trails</h2>
+  <div class="menu">
+    <strong style="font-family:'Playfair Display',serif;">Menu</strong>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+    <a href="team.html">Our Team</a>
+  </div>
+  <div class="copyright">© 2026 by Dakota STEM Trails</div>
+</footer>
+
+</body>
+</html>
